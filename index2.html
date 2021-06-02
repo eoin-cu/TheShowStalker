@@ -1,0 +1,451 @@
+3/19/2020 index2.html
+localhost:4649/?mode=htmlmixed 1/10
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+ <!--Thia is for the top navigation banner-->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ h1 {
+ color: black;
+ font-family: monospace;
+ font-size: 500%;
+ }
+ body {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #858570;
+ }
+#navbar {
+ background-color: #333;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ display: block;
+ transition: top 0.3s;
+}
+#navbar a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 15px;
+ text-decoration: none;
+ font-size: 17px;
+}
+#navbar a:hover {
+ background-color: #ddd;
+ color: black;
+}
+ .topnav {
+ overflow: hidden;
+ background-color: #333;
+ }
+ .topnav a {
+ float: left;
+
+ color: #f2f2f2
+;
+ text-align: center
+;
+ padding: 14px 16px
+;
+ text-decoration: none
+;
+ font-size: 17px
+;
+ }
+ .topnav
+a:hover {
+ background-color: #ddd
+;
+ color: black
+;
+ }
+ .topnav
+a.active {
+ background-color: #4CAF50
+;
+ color: white; 
+ }
+ table, th, td {
+ border: 1px solid black
+;
+ border-collapse: collapse
+;
+ }
+ th, td {
+ padding: 15px
+;
+ }
+ .title1
+{
+ border: 5px solid black
+;
+ border-collapse: collapse
+;
+ background-color: #333
+;
+ font-weight: bold
+;
+ font-family: cursive
+;
+ }
+ 
+ .text1
+{
+ font-weight: bold
+;
+ border: 5px solid blue
+;
+ width: 600px
+;
+ padding: 2.5%
+;
+ font-family: 'Times New Roman', Times, serif
+;
+ }
+ .hello {
+ font-weight: bold
+;
+ width: 600px
+;
+ 
+ }
+.office
+{
+ font-family: monospace;; }
+ i {
+ border: solid black
+;
+ border-width: 
+0 3px 3px
+0
+;
+
+ display: inline-block;
+ padding: 3px;
+}
+.down {
+ transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+}
+ footer {
+ position: none;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: rgb(186, 189, 219);
+ color: white;
+ text-align: center;
+ padding: 1%;
+}
+ </style>
+<!--this script is so the top nav bar disappears when scrolling-->
+<script>
+ var prevScrollpos = window.pageYOffset;
+ window.onscroll = function() {
+ var currentScrollPos = window.pageYOffset;
+ if (prevScrollpos > currentScrollPos) {
+ document.getElementById("navbar").style.top = "0";
+ } else {
+ document.getElementById("navbar").style.top = "-50px";
+ }
+ prevScrollpos = currentScrollPos;
+ }
+ </script>
+ 
+ 
+<!--info footer at the bottom of the page-->
+<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Personal Webpage"></meta>
+<meta name="author" content="Eoin Curley"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Page 2 </title>
+ </head>
+ 
+ <body>
+ 
+ <center>
+ 
+ <!--the title on the page-->
+<div class="office"> 
+ <h1> <img src="images/office/Theofficelogo update.PNG"> The
+Office US <img src="images/office/dreams come through.gif"> </h1>
+ </div> 
+<hr>
+ <!--Navigation banner-->
+ <div id="navbar" class="topnav">
+ <a class="active" href="index.html">Home</a>
+ <a href="index2.html">The Office US</a>
+ <a href="index3.html">Friends</a>
+ <a href="index4.html">Scrubs</a>
+ 
+ </div>
+ <!--info on the office-->
+ <p> <h4>The Office US is an American sitcom television series that
+depicts the everyday lives of office employees in the Scranton,
+ Pennsylvania branch of the fictional Dunder Mifflin Paper
+Company. It aired on NBC from March 24,
+ 2005, to May 16, 2013, lasting a total of nine seasons.
+</h4> </p>
+ 
+ <!--the first heading on the page-->
+ <section>
+ <div class="title1">
+ <p> 
+ <h2>What the Characters thought about the show?</h2>
+ </p> 
+ </div>
+ </section> 
+ 
+ <!--- steve carell thoughts about the office --->
+ <div class="blah">
+ <div>
+ <img src="images/office/steve.jpg" alt="steve" width="270"
+height="300"> <br> <i class="down"></i>
+ </div>
+<br>
+<div class="text1">
+ <h2> Steve Carell: </h2>
+ <div>
+ <p>“The climate’s different. I mean, the whole idea
+of that character, Michael Scott,
+ so much of it was predicated on inappropriate
+behavior. I mean, he’s certainly not a model boss.
+ A lot of what is depicted on that show is
+completely wrong-minded. That’s the point, you know?
+ But I just don’t know how that would fly now.
+There’s a very high awareness of offensive things
+ today—which is good, for sure. But at the same
+time, when you take a character like that too
+ literally, it doesn’t really work.”
+ </p>
+ </div>
+ </div>
+ <!--- John Krasinski thoughts about the office --->
+ <div class="blah">
+ <div>
+ <img src="images/office/john.jpg" alt="john" width="280"
+height="300"> <br> <i class="down"></i>
+ </div>
+ <br>
+ <div class="text1">
+ <h2> John Krasinski: </h2>
+ <div>
+ <p> "We literally owe everything to our fans our show
+was going to be canceled the first two years at NBC
+ and then iTunes came out. And people started buying the
+show for, like, $1.99.
+ They were buying a show that they could see for free on
+Thursdays, which I think blew everybody's
+ brain at the network. That’s the reason why we stayed
+on,
+ and then we caught fire on our own way. So every
+time someone comes up to me and says, you know,
+ 'Is it a bummer that you'll only be known as Jim?' I
+say, 'First of all,
+ being known as Jim would be the biggest honor for
+me, period.'"
+ </p> 
+ </div> 
+ 
+ </div>
+ </div>
+ 
+ 
+ <!--- Jeanna Fischer thoughts about the office --->
+ <div class="blah">
+ <div>
+ <img src="images/office/jeanna.jpg"
+alt="jeanna" width="270" height="300"> <br> <i class="down"></i>
+ </div>
+<br>
+ <div class="text1">
+ <h2> Jeanna Fischer: </h2>
+ <div>
+ <p> “When I was a little girl growing up in
+St. Louis, I wanted more than anything to be on a comedy television show.
+ I used to watch Cheers with my family
+and thought, ‘One day I want to be Shelley Long. I want to play a character on a
+ TV comedy that everyone remembers. So I
+don’t care if people call me Pam for the rest of my life. I’m proud of that,”
+ </p>
+ </div>
+ </div> 
+ </div>
+ 
+ <!--- Rainn wilson thoughts about the office --->
+ <div class="blah">
+ <div>
+ <img src="images/office/dwight.jpg"
+alt="dwight" width="270" height="300"> <br> <i class="down"></i>
+ </div>
+<br>
+ <div class="text1">
+ <h2> Rainn Wilson: </h2>
+ <div>
+ <p> I am not Dwight Schrute, okay? I
+played a character for 200 episodes, and it was an awesome character,
+ and he was a beet farmer. That
+doesn't mean you should hand me beets or make beet jokes every time I go into
+ Starbucks and ask if they have like
+a beet latte or something like that. Don't hand me reams of paper, and don't
+ say 'fact' to me, and don't ask me
+which is bear is best because I am a human being of service to the women and
+ girls of Haiti and to others in
+this planet, and I am not a beet farmer. So, fuck you! And...thank you for watching
+the Emmy-winning show The Office.
+ </p>
+ 
+</div>
+ </div> 
+ </div>
+ <div class="title1"> 
+ <h2> <P>One of our favourite scenes from the office</P> </h2>
+ <div>
+ <iframe src="https://img-9gagfun.9cache.com/photo/aKd1zN3_460svav1.mp4" allowfullscreen width=" 1000 "
+height="500" ></iframe>
+ </div>
+ </div>
+
+ <!--second part tot the page the secrets-->
+ <section> 
+ <div class="title1"> 
+ <p> 
+ <h2>Behind the scene secrets of your favourite
+scenes</h2>
+ </p> 
+ </div> 
+ </section>
+ <!---Text above photo of scranton sign-->
+ <div class="hello">
+ <h3 style="background-color:DodgerBlue;"> What a perfect start.
+</h3>
+ <img src="images/office/scranton sign.png" alt="sign " > <br>
+<i class="down"></i>
+ </div>
+ 
+ <div class="text1">
+ 
+ <p> 1) Unlikely heartthrob John Krasinski shot the footage for
+what would become The Office's
+ opening sequence during a celebratory trip to Scranton,
+Pennsylvania. After learning he'd been
+ cast in the role of Jim Halpert, Krasinski and some
+friends took a trip to the town where Dunder
+ Mifflin is located just for fun, not knowing that his
+footage would end up becoming the show's
+ opening sequence for all nine seasons.
+ </p>
+ </div>
+ 
+ <!---text above photo of john krazsinski-->
+ <div class="hello">
+ <h3 style="background-color:DodgerBlue;"> You won't
+believe what John Krasinski done! </h3>
+ <img src="images/office/john wig.png" alt="johns wig " >
+<br> <i class="down"></i>
+ </div>
+ 
+ <div class="text1">
+ 
+ <p> 2) Jim's adorable mop of hair was a little more
+moppish than usual on season three.
+ John shaved his head for the 2008 film Leatherheads,
+which focused on the early years
+ of American football through the story of a
+decorated war hero.
+ Because the writers wouldn't let Jim shave his head,
+too, John had to wear a wig until his hair grew back.
+ </p>
+ </div>
+ 
+ <!---text above pam and jim proposal-->
+ <div class="hello">
+ <h3 style="background-color:DodgerBlue;"> They did what?
+</h3>
+ <img src="images/office/proposal.jpg" alt="john and
+jeanna " > <br> <i class="down"></i>
+ </div>
+ 
+ <div class="text1">
+ 
+ <p> 3) The Office's main storyline really culminated
+on the fifth season episode "Weight Loss,"
+ when Jim proposes to Pam at a gas station in the
+pouring rain with cars driving past
+ to partially obstruct the view. Because it was
+too expensive to fly the cast to their
+ ideal location, a replica set had to be built behind
+a Best Buy in a Los Angeles parking
+ lot. Executive producer Greg Daniels explained that
+it was worth the expense and the
+ elaborate set up because it was the culmination of
+five years of storytelling on
+ the series.
+ </p>
+ </div>
+ 
+ 
+ <!---text above photo of michael in his office-->
+<div class="hello">
+ <h3 style="background-color:DodgerBlue;"> Steve
+didn't see what? </h3>
+ <img src="images/office/easter egg.png" alt="easter
+egg" > <br> <i class="down"></i>
+ </div>
+ 
+ <div class="text1">
+ 
+ <p> 4) Steve Carrell didn't watch the
+original version of The Office that aired in the U.K. from 2001 - 2003
+ and starred Ricky Gervais and Martin
+Freeman. Steve wanted his version of Michael Scott to be different
+ than Ricky's take on the character, but
+he still kept a British flag sitting on his desk during some scenes
+ as a nod to the show's origins.
+ Fun fact: the British flag is only
+considered a Union Jack when it is being flown at sea.
+ </p>
+ </div>
+ 
+ <!---text above photo of pam jim dwight-->
+ <div class="hello">
+ <h3 style="background-color:DodgerBlue;">They Said
+What!</h3>
+ <img src="images/office/reboot.jpg" alt="reboot" >
+<br> <i class="down"></i>
+ </div>
+ 
+ <div class="text1">
+ 
+ <p> 5) John Krasinski may be a big time Hollywood
+actor now, but he hasn't forgotten his roots.
+ In fact, pretty much every actor from The Office
+except Steve Carell has said they would
+ be down to return to the show for a revival. The
+cast has off-screen reunions frequently,
+ but we'd love to see the Dunder-Mifflin staff in
+2019.
+ What do Jam and Pam's babies look like now? We
+need to know!
+ </p>
+ </div>
+ 
+ 
+ 
+ <!--at the bootm of the page-->
+<div class="footer"></div>
+ <footer>
+ <p>Posted by: Eoin Curley &copy;
+ Contact information: <a
+href="19ECurley.dbc@lmetb.ie">
+ 19ECurley.dbc@lmetb.ie </a>.</p>
+ </footer>
+ </div>
+
+ </center>
+ </body>
+</html>
